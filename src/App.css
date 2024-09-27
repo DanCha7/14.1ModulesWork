@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(31, 31, 31);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1500px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.block__container__content {
+  width: 700px;
+  padding: 30px;
+  color: rgb(41, 166, 249);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(25, 25, 25);
+  box-shadow: 4px 4px 2px black;
+  border-radius: 6px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  font-size: 20px;
+  padding: 20px;
+  border-top-left-radius: 20px;
+}
+
+.submit__btn {
+  color: rgb(41, 166, 249);
+  background-color: rgb(77, 77, 77);
+  font-size: 20px;
+  padding: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.list__item {
+  font-size: 20px;
+}
+
+.delete__btn {
+  background-color: red;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}

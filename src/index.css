@@ -1,0 +1,8 @@
+:root {
+  font-family: Font;
+}
+
+@font-face {
+  font-family: "Font";
+  src: url("src/assets/fonts/AntipastoPro_trial.ttf");
+}
